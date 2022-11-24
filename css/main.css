@@ -179,6 +179,7 @@
   background-color: #D1CDE8;
   top: 150px;
   left: 130px;
+  animation: move 1s infinite alternate;
 }
 .cir2{
   width: 150px;
@@ -186,6 +187,7 @@
   background-color: #D8C3E2;
   top: 20px;
   right: 400px;
+  animation: move 3s infinite alternate;
 }
 .cir3{
   width: 125px;
@@ -193,6 +195,7 @@
   background-color: #F0A3CD;
   bottom: 250px;
   right: 300px;
+  animation: move2 1.5s infinite alternate;
 }
 .cir4{
   width: 110px;
@@ -200,6 +203,23 @@
   background-color: #E3B5D9;
   bottom: 110px;
   left: 280px;
+  animation: move2 3s infinite alternate;
+}
+@keyframes move { 
+  0%{
+    transform: translateX(-20px);
+  }
+  100%{
+    transform: translateXS(20px);
+  }
+}
+@keyframes move2 { 
+  0%{
+    transform: translateY(-40px);
+  }
+  100%{
+    transform: translateY(10px);
+  }
 }
 .dream{
   position: absolute;
