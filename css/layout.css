@@ -1,0 +1,184 @@
+@charset "utf-8";
+
+header {
+  height: 80px;
+  background: linear-gradient(to right, #f49bc7 0%, #e5b1d6 38%, #d7c6e6 64%, #c5ddf5 100%);
+}
+
+.inner {
+  width: 1050px;
+  height: 900px;
+  margin: 0px auto;
+  display: flex;
+}
+
+.photo {
+  margin-top: 225px;
+  width: 525px;
+  height: 450px;
+
+}
+
+.photo div {
+  width: 340px;
+  height: 340px;
+  border-radius: 3px;
+  background-color: #d7c6e6;
+  margin: 30px auto;
+  overflow: hidden;
+}
+
+.photo div img {
+  width: 100%;
+}
+
+.photo div+p {
+  text-align: center;
+}
+
+.button {
+  margin-top: 225px;
+  height: 450px;
+  width: 525px;
+}
+
+.button>h3 {
+  margin: 40px 0px;
+  font-size: 50px;
+  text-align: center;
+}
+
+section div.introduce {
+  margin: 0px auto;
+  font-size: 23px;
+  width: 500px;
+  height: 100px;
+  cursor: pointer;
+  background: linear-gradient(to right, #f49bc7 0%, #e5b1d6 38%, #d7c6e6 64%, #c5ddf5 100%);
+  border-radius: 3px;
+  box-shadow: 3px 3px 3px gray;
+  text-align: center;
+  padding-top: 10px;
+  line-height: 40px;
+}
+
+.introduce p {
+  font-size: 20px;
+
+}
+.introduce span {
+  font-size: 23px;
+}
+
+#port_btn,
+#about_btn {
+  float: left;
+  margin: 40px 0px;
+  width: 240px;
+  height: 60px;
+  border-radius: 3px;
+  background-color: #F6F6F6;
+  box-shadow: 5px 5px 3px gray;
+  margin-left: 15px;
+  text-align: center;
+  line-height: 60px;
+  cursor: pointer;
+  transition: all 0.1s;
+}
+
+#port_btn:hover {
+  background: linear-gradient(to right, #f49bc7 0%, #e5b1d6 100%);
+}
+
+#about_btn:hover {
+  background: linear-gradient(to right, #d7c6e6 0%, #c5ddf5 100%);
+}
+
+.inner div {
+  font-size: 23px;
+  font-weight: lighter;
+}
+
+.mouseIcon{
+  background-color: #e5b1d6;
+  position: absolute;
+  width: 80px;
+  top:700px;
+  left: 47%;
+  opacity: 0;
+  animation: mouse 1s infinite alternate;
+  transition: all 1s;
+}
+
+@keyframes port_btn {
+  0% {
+    background: linear-gradient(to right, #f49bc704 0%, #e5b1d609 100%);
+  }
+
+  10% {
+    background: linear-gradient(to right, #f49bc70a 0%, #e5b1d610 100%);
+  }
+
+  20% {
+    background: linear-gradient(to right, #f49bc70e 0%, #e5b1d613 100%);
+
+  }
+
+  30% {
+    background: linear-gradient(to right, #f49bc715 0%, #e5b1d618 100%);
+  }
+  40% {
+    background: linear-gradient(to right, #f49bc721 0%, #e5b1d625 100%);
+  }
+
+  50% {
+    background: linear-gradient(to right, #f49bc733 0%, #e5b1d631 100%);
+  }
+  60% {
+    background: linear-gradient(to right, #f49bc738 0%, #e5b1d638 100%);
+  }
+  
+  70% {
+    background: linear-gradient(to right, #f49bc749 0%, #e5b1d656 100%);
+  }
+  
+  80% {
+    background: linear-gradient(to right, #f49bc750 0%, #e5b1d65e 100%);
+  }
+
+  90% {
+    background: linear-gradient(to right, #f49bc760 0%, #e5b1d66b 100%);
+  }
+  100% {
+    background: linear-gradient(to right, #f49bc773 0%, #e5b1d681 100%);
+  }
+}
+
+.animate {
+  animation: port_btn 0.5s infinite alternate;
+}
+@keyframes mouse {
+  0%{transform: translateY(0px);}
+  100%{transform: translateY(30px);}
+}
+
+.top_btn,.top_btn2{
+  padding: 10px;
+  width: 30px;
+  overflow: hidden;
+  position: absolute;
+  right: 70px;
+  bottom: 100px;
+  z-index: 10;
+  cursor: pointer;
+  animation: mouse 1s infinite alternate;
+  transition: all 1s;
+}
+.top_btn img ,.top_btn2 img{
+  width: 100%;
+  border-radius: 5px;
+}
+.top_btn:hover ,.top_btn2:hover{
+  animation: none;
+  transform: scale(1.1);
+}

@@ -1,0 +1,405 @@
+@charset "utf-8";
+
+/* swaroveski */
+.sw {
+  background-image: url('../image/sw_bg.png');
+  position: relative;
+}
+#sw_badd1,#sw_badd2,#sw1,#sw2 {
+  position: absolute;
+}
+#sw_badd2 {
+  top: 380px;
+}
+#sw1 {
+  width: 983px;
+  top: 0px;
+  left: 100px;
+}
+#sw2 {
+  width: 606px;
+  top: 280px;
+  left: 600px;
+}
+.sw .colorbox1 {
+  background-color: #222629;
+}
+.sw .colorbox2 {
+  background: #F3F0E7;
+}
+/* heropy coffee */
+.heropy {
+  background-image: url('../image/he_bg.png');
+  position: relative;
+}
+#ha_badd1,#ha1,#ha2 {
+  position: absolute;
+}
+#ha1 {
+  width: 983px;
+  top: 0px;
+  left: 120px;
+}
+#ha2 {
+  width: 606px;
+  top: 280px;
+  left: 650px;
+}
+.heropy .colorbox1 {
+  background-color: #C7825F;
+}
+.heropy .colorbox2 {
+  background: #343434;
+}
+/* holLYS */
+.hol {
+  background-image: url('../image/hol_bg.png');
+  position: relative;
+}
+#hol1,#hol2,#hol3,#hol_b_add1,#hol_b_add2 {
+  position: absolute;
+}
+#hol_b_add1{
+}
+#hol_b_add2{
+  bottom: 0px;
+  right: 190px;
+}
+#hol1 {
+  width: 983px;
+  top: 0px;
+  right: 190px;
+}
+#hol2 {
+  width: 706px;
+  top: 380px;
+  right: 700px;
+}
+#hol3 {
+  width: 606px;
+  top: 380px;
+  right: 80px;
+}
+.hol .colorbox1 {
+  background-color: #333333;
+}
+.hol .colorbox2 {
+  background: #B5111A;
+}
+/* SUNNI */
+.ssuni {
+  background-image: url('../image/su_bg.png');
+  position: relative;
+}
+#su,#su_b_add1,#su_b_add2 {
+  position: absolute;
+}
+#su_b_add1{
+  right: 500px;
+}
+#su_b_add2{
+  bottom: 0px;
+  right: 0px;
+}
+#su {
+  width: 983px;
+  top: 100px;
+  right: 180px;
+}
+.ssuni .colorbox1 {
+  background-color: #E2CD63;
+}
+.ssuni .colorbox2 {
+  background: #FFE57D;
+}
+/* scroll 서식 show */
+.back-to-position{
+  opacity: 0;
+  transition-duration: 1s;
+}
+.back-to-position.to-left{
+  transform: translateX(150px);
+}
+.back-to-position.to-right{
+  transform: translateX(-150px);
+}
+.show .back-to-position{
+  opacity: 1;
+  transform: translateX(0);
+}
+.show .back-to-position.delay-1{transition-delay: .2s;}
+.show .back-to-position.delay-11{transition-delay: .3s;}
+.show .back-to-position.delay-2{transition-delay: .4s;}
+.show .back-to-position.delay-22{transition-delay: .5s;}
+.show .back-to-position.delay-3{transition-delay: .6s;}
+.show .back-to-position.delay-33{transition-delay: .7s;}
+
+.hide{/*버튼 클릭 시 프로모션 박스에 적용할 서식*/
+  height: 0px; 
+}
+.portfolio{
+  overflow: hidden;
+  position: relative;
+}
+
+/* about */
+.about{
+  overflow: hidden;
+  position: relative;
+}
+.aboutme{
+  width: 1920px;
+  height: 900px;
+}
+.ab_deco,.ab_deco2{
+  width: 1920px;
+  height: 900px;
+  position: relative;
+  overflow: hidden;
+}
+.t_deco,.t_deco2,.t_deco3,.cir,.t_a,.t_a1,.t_a2,.t_a3,.t_a4{
+  position: absolute;
+}
+.t_deco {
+  position: absolute;
+  display: inline;
+  right: 0px;
+  top: 0px;
+}
+.cir{
+  border-radius: 50%;
+  transition: all 0.6s;
+}
+.cir:hover{
+  transform: scale(1.2);
+}
+.cir1{
+  width: 120px;
+  height: 120px;
+  background-color: #D1CDE8;
+  top: 150px;
+  left: 130px;
+}
+.cir2{
+  width: 150px;
+  height: 150px;
+  background-color: #D8C3E2;
+  top: 20px;
+  right: 400px;
+}
+.cir3{
+  width: 125px;
+  height: 125px;
+  background-color: #F0A3CD;
+  bottom: 250px;
+  right: 300px;
+}
+.cir4{
+  width: 110px;
+  height: 110px;
+  background-color: #E3B5D9;
+  bottom: 110px;
+  left: 280px;
+}
+.dream{
+  position: absolute;
+  display: flex;
+  top: 20%;
+  left: 27%;
+  z-index: 11;
+}
+.dream img{
+  width: 400px;
+  height: 600px;
+  margin-right: 40px;
+}
+.t_dream{
+  margin: 40px 0px;
+  width: 490px;
+}
+.t_dream span{
+  font-size: 23px;
+  font-weight: lighter;
+}
+.t_dream p{
+  width: 450px;
+  font-size: 20px;
+  margin-bottom: 20px;
+  line-height: 28px;
+}
+.key_text>li{
+  display: flex;
+}
+.t_deco2{
+  left: 540px;
+  top: 20px;
+}
+li .cir p{
+  margin-top: 25px;
+  font-size: 23px;
+  text-align: center;
+}
+li .cir span{
+  font-size: 15px;
+}
+.cir01,.cir02,.cir03,.cir04{
+  width: 100px;
+  height: 100px;
+  left: 540px;
+  margin-top: 40px;
+}
+.cir01{
+  background-color: #F0A3CD;
+  top: 150px;
+}
+#Achievement{
+  color: #E3469C;
+  font-weight: bold;
+}
+.cir02{
+  background-color: #E3B5D9;
+  top: 320px;
+}
+#friendly{
+  color: #B949A1;
+  font-weight: bold;
+}
+.cir03{
+  background-color: #D8C3E2;
+  top: 490px;
+}
+#observation{
+  color: #944AB8;
+  font-weight: bold;
+}
+.cir04{
+  background-color: #D1CDE8;
+  top: 660px;
+}
+#enterprising{
+  color: #5947C1;
+  font-weight: bold;
+}
+.t_a{
+  left: 730px;
+  margin-top: 40px;
+}
+.t_a h3{
+  margin-bottom: 20px;
+  font-size: 23px;
+}
+.t_a p{
+  font-size: 13px;
+  line-height: 28px;
+}
+.t_a1{
+  top: 150px;
+}
+.t_a2{
+  top: 320px;
+}
+.t_a3{
+  top: 490px;
+}
+.t_a4{
+  top: 660px;
+}
+.t_deco3 > img{
+  width: 110%;
+}
+/* profile */
+.profile> div{
+  width: 1050px;
+  height:500px;
+  margin: 0px auto;
+  padding-top: 200px;
+}
+#name{
+  width: 260px;
+  margin-left:80px ;
+  float: left;
+}
+#name p{
+  font-size: 13px;
+  text-align: center;
+  line-height: 30px;
+}
+#name div{
+  width: 260px;
+  height: 350px;
+  overflow: hidden;
+  margin-bottom: 40px;
+  background-color: #944AB8;
+}
+#name div img{
+  width: 100%;
+}
+#include{
+  margin: 0px 0px 0px 200px;
+  float: left;
+}
+#ih6{
+margin-top: 0px;
+}
+#include > p{
+  line-height: 20px;
+}
+#include > ul{
+  width: 450px;
+  height: 200px;
+  display: inline-block;
+}
+#include >ul > li{
+  margin: 40px;
+}
+#include >ul > li >ul{
+}
+#include >ul > li > ul >li{
+  margin: 10px;
+  list-style-type: circle;
+}
+
+#include >ul > li:first-child{
+  width: 30%;
+  height:100%;
+  float: left;
+}
+#include  >ul >li:nth-child(2){
+  margin: 40px 0px 20px;
+}
+#include  >ul >li:nth-child(3){
+  margin: 20px;
+}
+.skill {
+  width: 510px;
+  float: right;
+}
+.skillicon{
+  display: flex;
+}
+.skillicon >li{
+  margin: 10px;
+}
+.skillicon >li>div{
+  width: 50px;
+  height: 50px;
+  overflow: hidden;
+}
+.skillicon >li>p{
+  text-align: center;
+}
+.skillicon >li:nth-child(1)>div>img{
+  width: 50%;
+  padding-left: 10px;
+}
+.skillicon >li:nth-child(2)>div>img{
+  width: 50%;
+  padding-left: 10px;
+}
+.skillicon >li:nth-child(3)>div>img{
+  width: 50%;
+  padding-left: 10px;
+}
+.skillicon >li>div>img{
+  width: 90%;
+}
