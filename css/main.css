@@ -185,8 +185,8 @@
   width: 150px;
   height: 150px;
   background-color: #D8C3E2;
-  top: 20px;
-  right: 400px;
+  top: 10px;
+  right: 150px;
   animation: move 3s infinite alternate;
 }
 .cir3{
@@ -232,10 +232,11 @@
   width: 400px;
   height: 600px;
   margin-right: 40px;
+  transform:translate(550px,-500px);
 }
 .t_dream{
   margin: 40px 0px;
-  width: 490px;
+  width: 1050px;
 }
 .t_dream span{
   font-size: 23px;
@@ -246,6 +247,7 @@
   font-size: 20px;
   margin-bottom: 20px;
   line-height: 28px;
+  text-align: right;
 }
 .key_text>li{
   display: flex;
