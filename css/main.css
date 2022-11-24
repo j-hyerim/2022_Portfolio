@@ -258,7 +258,7 @@
 }
 li .cir p{
   margin-top: 25px;
-  font-size: 23px;
+  font-size: 18px;
   text-align: center;
 }
 li .cir span{
@@ -269,6 +269,7 @@ li .cir span{
   height: 100px;
   left: 540px;
   margin-top: 40px;
+  font-size: 18px;
 }
 .cir01{
   background-color: #F0A3CD;
