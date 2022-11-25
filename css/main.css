@@ -185,7 +185,7 @@
   width: 150px;
   height: 150px;
   background-color: #D8C3E2;
-  top: 10px;
+  top: 30px;
   right: 150px;
   animation: move 3s infinite alternate;
 }
@@ -229,14 +229,13 @@
   z-index: 11;
 }
 .dream img{
-  width: 400px;
-  height: 600px;
-  margin-right: 40px;
-  transform:translate(550px,-500px);
+  width: 350px;
+  height: 500px;
+  margin-left: 40px;
 }
 .t_dream{
   margin: 40px 0px;
-  width: 1050px;
+  width: 500px;
 }
 .t_dream span{
   font-size: 23px;
@@ -331,15 +330,27 @@ li .cir span{
   width: 110%;
 }
 /* profile */
+.profile{
+  background: linear-gradient(to top,#ffebeb 0%,rgba(125,185,232,0) 100%);
+}
+#profile{
+  text-align: center;
+  font-size: 26px;
+  transform: translateY(100px);
+}
 .profile> div{
+  border-radius: 3px;
+  box-shadow: 5px 15px 50px gray;
   width: 1050px;
-  height:500px;
+  height:600px;
+  padding: 80px 0px 100px 10px;
   margin: 0px auto;
-  padding-top: 200px;
+  overflow: hidden;
 }
 #name{
+  margin-top: 100px;
   width: 260px;
-  margin-left:80px ;
+  margin-left:130px ;
   float: left;
 }
 #name p{
@@ -352,13 +363,12 @@ li .cir span{
   height: 350px;
   overflow: hidden;
   margin-bottom: 40px;
-  background-color: #944AB8;
 }
 #name div img{
   width: 100%;
 }
 #include{
-  margin: 0px 0px 0px 200px;
+  margin: 100px 10px 0px 100px;
   float: left;
 }
 #ih6{
@@ -393,12 +403,48 @@ margin-top: 0px;
 #include  >ul >li:nth-child(3){
   margin: 20px;
 }
+
+.b_key{
+  position: relative;
+}
+.b_key >div{
+  width: 400px;
+  right: 150px;
+  position: absolute;
+  margin: 0px 0px 20px;
+}
+.b_key >div:first-child{
+  bottom: 450px;
+}
+.b_key >div:last-child{
+  bottom: 150px;
+
+}
+
+.color{
+  cursor: pointer;
+  width: 300px;
+  height: 150px;
+  border-radius: 3px;
+  margin-bottom: 20px;
+}
+.color1{
+  background: linear-gradient(to right, #f49bc7 0%, #e5b1d6 38%, #d7c6e6 64%, #c5ddf5 100%);
+}
+.color1 +{
+}
+.color2{
+  background: linear-gradient(to right, rgba(245,213,215,1) 0%,rgba(249,229,212,1) 25%,rgba(221,247,230,1) 51%,rgba(220,243,243,1) 75%,rgba(212,237,244,1) 100%);
+}
+#skill {margin: 10px 0px 20px;}
+
 .skill {
-  width: 510px;
+  width: 558px;
   float: right;
 }
 .skillicon{
   display: flex;
+  cursor: pointer;
 }
 .skillicon >li{
   margin: 10px;
@@ -411,7 +457,7 @@ margin-top: 0px;
 .skillicon >li>p{
   text-align: center;
 }
-.skillicon >li:nth-child(1)>div>img{
+/* .skillicon >li:nth-child(1)>div>img{
   width: 50%;
   padding-left: 10px;
 }
@@ -422,7 +468,7 @@ margin-top: 0px;
 .skillicon >li:nth-child(3)>div>img{
   width: 50%;
   padding-left: 10px;
-}
+} */
 .skillicon >li>div>img{
   width: 90%;
 }
