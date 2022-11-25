@@ -1,5 +1,4 @@
 @charset "utf-8";
-
 header {
   height: 80px;
   background: linear-gradient(to right, #f49bc7 0%, #e5b1d6 38%, #d7c6e6 64%, #c5ddf5 100%);
@@ -65,7 +64,7 @@ section div.introduce {
   cursor: pointer;
   background: linear-gradient(to right, #f49bc7 0%, #e5b1d6 38%, #d7c6e6 64%, #c5ddf5 100%);
   border-radius: 3px;
-  box-shadow: 3px 3px 3px gray;
+  box-shadow: 3px 3px 30px gray;
   text-align: center;
   padding-top: 10px;
   line-height: 40px;
@@ -350,6 +349,16 @@ position: absolute;
   height: 100%;
   background: linear-gradient(to right, #f49bc7 0%, #e5b1d6 38%, #d7c6e6 64%, #c5ddf5 100%);
 }
+.f_bg1{
+  width: 100%;
+  border-radius: 3px;
+  margin: 0px auto;
+  height: 180px;
+  background: linear-gradient(to top,#ffebeb 0%,rgba(125,185,232,0) 100%);
+}
 img{
   border-radius: 3px;
+}
+#hisc{
+  height: 700px;
 }

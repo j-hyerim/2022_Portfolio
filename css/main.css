@@ -242,7 +242,8 @@
   font-weight: lighter;
 }
 .t_dream p{
-  width: 450px;
+  margin-left: 100px;
+  width: 350px;
   font-size: 20px;
   margin-bottom: 20px;
   line-height: 28px;
@@ -256,6 +257,7 @@
   top: 20px;
 }
 li .cir p{
+  font-weight: bold;
   margin-top: 25px;
   font-size: 18px;
   text-align: center;
@@ -471,4 +473,41 @@ margin-top: 0px;
 } */
 .skillicon >li>div>img{
   width: 90%;
+}
+#ch{
+  width: 600px;
+  left: 100px;
+  transform: translateY(-200px);
+}
+.HighSchool .colorbox1{
+  background-color: #df4d36;
+}
+.HighSchool .colorbox2{
+  background-color: #de9239;
+
+}
+.logo{position: relative;}
+.logo > *{
+  position: absolute;
+}
+.logo >div{
+  width: 1000px;
+  right: 200px;
+  top: 400px;
+}
+.logo >img{
+  top: 50px;
+  right: 200px;
+}
+.logo_s{
+  display: flex;
+  box-shadow: 5px 5px 30px #D5B4E4;
+  border-radius: 3px;
+  padding: 50px;
+}
+.logo p{
+  margin-top: 60px;
+  margin-left: 40px;
+  font-size: 18px;
+  line-height: 35px;
 }
